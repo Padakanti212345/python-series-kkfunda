@@ -1,0 +1,187 @@
+python variables by KK FUNDA
+============================
+
+--> In Python, variables are used to store data values.
+
+1. What is a Variable?
+=======================
+
+A variable in Python is simply a name that refers to a value. You can think of it as a label that points to a specific value in memory.
+
+
+
+2. Variable Assignment
+========================
+In Python, you create a variable by assigning it a value using the `=` operator:
+
+Example:
+
+x = 5  # Here, `x` is the variable and 5 is the value assigned to it.
+
+name = "Alice"  # `name` is a variable holding the string "Alice".
+
+
+3. Variable Naming Rules
+========================
+
+Variable names must follow these rules:
+
+- Start with a letter (a-z, A-Z) or an underscore (`_`).
+
+- The rest of the name can contain letters, digits (0-9), or underscores.
+
+- Python is case-sensitive, so `myVar`, `myvar`, and `MYVAR` are all different variables.
+
+- Avoid using Python keywords (reserved words) such as `if`, `else`, `for`, `while`, etc.
+
+Example:
+
+variable_1 = 10  # Valid
+1variable = 10  # Invalid (starts with a number)
+
+4. Data Types of Variables
+===========================
+
+Variables in Python can hold values of different data types. Here are some common types:
+
+- Integer (`int`): Represents whole numbers.
+  
+  age = 30
+  
+  
+- Floating-point (`float`): Represents decimal numbers.
+ 
+  price = 19.99
+  
+
+- String (`str`): Represents a sequence of characters enclosed in quotes.
+ 
+  name = "Alice"
+  
+
+- Boolean (`bool`): Represents either `True` or `False`.
+ 
+  is_active = True
+  
+
+- List (`list`): An ordered collection of items, which can be of different data types.
+  
+  numbers = [1, 2, 3, 4]
+  
+
+- Tuple (`tuple`): An ordered, immutable collection of items.
+  
+  coordinates = (10, 20)
+  
+
+- Dictionary (`dict`): A collection of key-value pairs.
+  
+  student = {"name": "Alice", "age": 25}
+  
+
+- Set (`set`): A collection of unique items.
+  
+  fruits = {"apple", "banana", "cherry"}
+  
+
+- NoneType (`None`): Represents the absence of a value.
+  
+  result = None
+
+
+5. Dynamic Typing
+==================
+
+Python is a dynamically-typed language, meaning that you don’t need to declare the data type of a variable explicitly. The type of the variable is inferred from the value assigned to it.
+
+Example:
+
+x = 10    # `x` is an integer
+y = "Hello"  # Now `y` is a string
+
+
+6. Multiple Assignments
+=======================
+
+
+Python allows you to assign values to multiple variables in a single line.
+
+Example:
+
+a, b, c = 1, 2.5, "Hello"  # `a` gets 1, `b` gets 2.5, `c` gets "Hello"
+
+
+
+7. Constant Variables
+======================
+
+Python does not have a built-in constant type, but by convention, variables written in all uppercase letters are considered constants (they shouldn't be changed).
+
+Example:
+
+PI = 3.14159  # This is considered a constant.
+
+
+8. Type Conversion
+==================
+
+You can explicitly convert variables from one type to another using functions like `int()`, `float()`, `str()`, etc.
+
+Example:
+
+x = "100"  # `x` is a string
+x = int(x)  # Now `x` is an integer
+
+
+9. Global and Local Variables or scope of variable
+=================================================
+
+- Local Variables: These are defined inside a function and are only accessible within that function.
+- Global Variables: These are defined outside any function and can be accessed anywhere in the program.
+
+Example:
+
+x = 10  # Global variable
+def my_function():
+    y = 5  # Local variable
+    print(x + y)  # Accessing global variable `x` inside the function
+
+my_function()  # Output: 15
+
+
+
+10. Variables in Expressions
+=============================
+
+
+Variables can be used in expressions to perform operations.
+
+Example:
+
+a = 5
+b = 10
+sum_ab = a + b  # sum_ab will hold the value 15
+
+
+11. Deleting Variables
+======================
+
+You can delete a variable using the `del` keyword. This removes the variable from memory.
+
+Example:
+
+x = 10
+del x  # `x` no longer exists after this statement
+
+
+---
+
+ Summary:
+- Variables store values in Python.
+- Python is dynamically typed, so you don’t need to specify the type when assigning a value.
+- Variable names must follow certain naming rules.
+- Python has several built-in data types, such as `int`, `float`, `str`, `list`, and more.
+- You can use multiple assignments and type conversion in Python.
+- Variables have local and global scopes, and you can use the `global` keyword to modify global variables inside functions.
+
+Understanding how variables work is fundamental to writing effective Python code, as they are the building blocks for storing and manipulating data.

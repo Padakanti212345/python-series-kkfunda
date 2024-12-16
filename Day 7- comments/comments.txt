@@ -1,0 +1,97 @@
+
+comments in python by KK FUNDA
+==============================
+
+what is a comment?
+------------------
+
+In Python, comments are used to add explanatory notes or descriptions within the code. Comments are ignored by the Python interpreter when running the program, and they are essential for making the code more readable, maintainable, and understandable for humans.
+
+ Types of Comments in Python:
+ ----------------------------
+
+1. Single-line Comments:
+
+   - A single-line comment is created by placing a hash symbol (`#`) before the comment text. Everything following the `#` on that line will be treated as a comment.
+   - It is used for brief explanations or notes.
+
+   Example:
+
+   # This is a single-line comment
+   print("Hello, World!")  # This prints a greeting message
+   
+
+2. Multi-line Comments (Block Comments):
+
+   - Python does not have a specific syntax for multi-line comments, but a common approach is to use consecutive single-line comments, each starting with `#`.
+   - Alternatively, triple quotes (`'''` or `"""`) can be used to create multi-line strings that act as comments. These are typically used for docstrings (which we'll discuss next), but can also be used for regular comments.
+
+   Example of Multi-line comments using `#`:
+  
+   # This is a comment
+   # that spans multiple
+   # lines.
+   
+
+   Example of Multi-line comments using Triple Quotes:
+  
+   '''
+   This is a block comment
+   that spans multiple lines.
+   It's often used for documentation purposes.
+   '''
+   print("Hello, World!")
+   
+
+
+   
+
+3. Inline Comments:
+   - These comments appear on the same line as a statement. They are typically used to explain a specific part of the code.
+   - Inline comments are usually brief and should be separated from the code by at least one space for clarity.
+
+   Example:
+   python
+   x = 10  # This is the value of x
+   
+
+ Best Practices for Writing Comments:
+ ------------------------------------
+
+1. Be Clear and Concise:
+
+   - Comments should be clear, straightforward, and to the point. Avoid unnecessary verbosity.
+   
+2. Explain Why, Not What:
+
+   - Focus on explaining the *why* behind the code, especially when the logic may not be immediately obvious.
+   - It’s often unnecessary to explain the *what* since the code itself should be self-explanatory.
+
+   For example, instead of:
+  
+   x = x + 1  # Increment x by 1
+   
+   It might be better to explain *why* the increment is necessary:
+   
+   x = x + 1  # Move to the next index in the list
+   
+
+3. Keep Comments Up-to-Date:
+
+   - Outdated or incorrect comments can be worse than no comments at all. Always ensure that comments match the code.
+
+4. Use Comments Sparingly:
+
+   - Try to write clean, self-explanatory code. Only use comments when they add value or clarification.
+   - Over-commenting can make the code cluttered and harder to read.
+
+5. Avoid Commenting Obvious Code:
+
+   - Don’t comment code that is straightforward and self-explanatory.
+
+   - Example of a bad comment:
+     
+     x = 10  # Set x to 10
+
+ Conclusion:
+Comments are an essential part of writing clean, maintainable Python code. They help others (and your future self) understand the purpose, functionality, and design of your code. Proper use of comments can drastically improve the readability and maintainability of your code, making it easier for others to work with or modify.

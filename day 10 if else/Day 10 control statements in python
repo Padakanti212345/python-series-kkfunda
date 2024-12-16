@@ -1,0 +1,47 @@
+Day 10 control statements in python 
+============================
+
+Python control statements allow the execution of specific blocks of code based on certain conditions or the flow of the program. These statements help direct the flow of execution depending on conditions (using `if`, `elif`, `else`), repetition (using `for` and `while` loops), and more.
+
+Here is a detailed explanation of Python's key control statements:
+
+ 1. Conditional Statements
+ =========================
+
+# `if` statement
+-----------------
+The `if` statement is used to check whether a condition is `True`. If the condition is true, the block of code inside the `if` statement is executed.
+
+python
+x = 5
+if x > 3:
+    print("x is greater than 3")
+
+
+# `elif` (else if) statement
+-----------------------------
+
+The `elif` statement allows checking multiple conditions. If the condition in the `if` statement is not true, the program checks the conditions in the `elif` blocks.
+
+
+x = 5
+if x > 10:
+    print("x is greater than 10")
+elif x == 5:
+    print("x is equal to 5")
+
+
+# `else` statement
+The `else` statement executes a block of code if all preceding `if` and `elif` conditions are false.
+
+
+x = 2
+if x > 3:
+    print("x is greater than 3")
+else:
+    print("x is less than or equal to 3")
+
+
+ Summary of Control Flow Statements:
+
+- **`if`, `elif`, `else`**: Conditional statements for decision-making.

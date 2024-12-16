@@ -1,0 +1,24 @@
+Day 6
+------
+
+Ec2 <--> VS CODE
+================
+
+step 1: launch an ec2 machine  
+
+step 2: connect to that machine 
+
+step 3: download and Install VS CODE  
+
+step 4: connect ec2 with VS code
+
+Host pythonServer
+     HostName 3.111.34.55
+     user ec2-user
+     IdentityFile C:\Users\gpras\Downloads\kkfundanew.pem
+
+step 5: Install python extension
+
+step 6: write sample python code
+
+

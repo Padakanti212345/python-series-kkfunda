@@ -1,0 +1,141 @@
+python for devops
+=================
+
+syllabus
+========
+
+Here’s a basic Python scripting syllabus to help you learn the essentials of Python programming. This syllabus is designed for beginners, progressing from basic concepts to more advanced topics. Each section includes key topics, along with suggested practice exercises.
+
+### 1. Introduction to Python
+   - What is Python?
+     - Overview of Python and its uses
+     - Python installation and setup (IDEs like VS Code, PyCharm, Jupyter)
+   - Running Python Code
+     - Interactive mode vs script mode
+     - Writing and running Python scripts
+     - Python file extension: .py
+
+### 2. Python Syntax and Data Types
+   - Basic Syntax
+     - Indentation (importance in Python)
+     - Comments (single-line and multi-line)
+   - Variables and Data Types
+     - Integer (int), Float (float), String (str), Boolean (bool)
+     - Assigning variables
+     - Basic operations: addition, subtraction, multiplication, division
+   - Type Casting: Converting between data types (e.g., int() to float())
+
+### 3. Control Structures
+   - Conditional Statements: if, elif, else
+     - Logical operators: and, or, not
+   - Loops
+     - for loops
+     - while loops
+     - break, continue, and pass
+   - Exercises: Create a simple number guessing game, sum of numbers, even/odd checker
+
+### 4. Functions
+   - Defining Functions: def keyword
+   - Function Parameters and Return Values
+   - Keyword vs Positional Arguments
+   - Variable Scope: Local vs Global variables
+   - Lambda Functions (Anonymous functions)
+   - Exercises: Write a function for factorial, Fibonacci series, simple calculator
+
+### 5. Data Structures
+   - Lists: Creating lists, indexing, slicing, appending, and modifying lists
+   - Tuples: Creating tuples, immutable nature, accessing elements
+   - Dictionaries: Key-value pairs, accessing and modifying values
+   - Sets: Unique collection of elements, basic operations (union, intersection)
+   - Exercises: Create a contact book, count the frequency of words in a list, combine lists
+
+### 6. File Handling
+   - Reading Files: Using open(), read(), and readlines()
+   - Writing Files: Using write() and writelines()
+   - File Modes: 'r', 'w', 'a', 'rb', etc.
+   - Working with CSV Files (Optional but useful): Using Python’s csv module
+   - Exercises: Read a text file and count word occurrences, write user input to a file
+
+### 7. Error Handling and Exceptions
+   - Try-Except Blocks: Handling errors gracefully
+   - Finally Block: Executing code regardless of errors
+   - Raising Exceptions: Manually raising errors
+   - Exercises: Write a program that handles division by zero, invalid user inputs
+
+### 8. Modules and Libraries
+   - Importing Libraries: Using built-in libraries like math, datetime, random, etc.
+   - Creating Your Own Modules: How to structure and use custom Python scripts
+   - Using pip: Installing third-party libraries (e.g., requests, numpy)
+   - Exercises: Import the random module to generate random numbers, calculate the area of a circle using math
+
+### 9. Object-Oriented Programming (OOP) Basics
+   - Classes and Objects: Creating a class, instantiating objects
+   - Methods: Defining functions inside classes
+   - Constructor (__init__)
+   - Inheritance: Creating subclasses and using parent class methods
+   - Encapsulation: Private and public variables/methods
+   - Polymorphism: Method overriding
+   - Exercises: Create a Car class with properties and methods, subclass ElectricCar
+
+### 10. Working with Libraries
+   - NumPy (for basic data manipulation and array operations)
+     - Creating arrays, performing mathematical operations
+   - Pandas (for data manipulation)
+     - Importing data, working with DataFrames
+   - Matplotlib (for basic plotting and visualization)
+     - Creating simple line graphs, bar charts, etc.
+   - Exercises: Analyze a CSV file with Pandas, plot a graph with Matplotlib
+
+### 11. Advanced Topics (Optional for Beginners)
+   - Regular Expressions (Regex): Matching patterns in text
+   - Decorators: Function decorators to modify the behavior of functions
+   - Generators: Using yield to create iterators
+   - List Comprehensions: Writing concise loops in a single line
+   - Exercises: Create a program that validates email addresses using regex, use list comprehension to filter even numbers
+
+---
+
+### Suggested Learning Path:
+1. Week 1: Python Basics
+   - Focus on Syntax, Data Types, and Control Structures (if/else, loops).
+   - Start writing simple programs (e.g., a simple calculator or number guessing game).
+
+2. Week 2: Functions and Data Structures
+   - Learn to write reusable functions and explore Python’s built-in data structures.
+   - Start projects like a simple to-do list or a basic contact book.
+
+3. Week 3: File Handling and Error Handling
+   - Practice reading from and writing to files.
+   - Work with exception handling to make your code more robust.
+
+4. Week 4: OOP and Libraries
+   - Dive into object-oriented programming with classes and objects.
+   - Start using libraries like math or random to solve practical problems.
+
+5. Week 5: Practice Projects
+   - Choose a small project to consolidate everything you’ve learned (e.g., a text-based game, a contact manager, or data analysis).
+
+6. Week 6: Advanced Topics (Optional)
+   - If comfortable, experiment with more advanced topics like Regular Expressions, decorators, and modules.
+
+---
+
+### Additional Resources
+- Documentation: [Python Official Docs](https://docs.python.org/3/)
+- Interactive Learning: 
+  - [Codecademy Python](https://www.codecademy.com/learn/learn-python-3)
+  - [Python.org Tutorials](https://docs.python.org/3/tutorial/)
+- Books: 
+  - "Automate the Boring Stuff with Python" by Al Sweigart
+  - "Python Crash Course" by Eric Matthes
+
+By the end of this syllabus, you should be able to write functional Python scripts, solve problems with Python, and start building small projects.
+
+
+
+
+
+Day 1: what is python ?
+
+Day 2: versions of python
+
