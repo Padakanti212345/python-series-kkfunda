@@ -1,3 +1,5 @@
+
+
 python for devops
 =================
 
@@ -138,4 +140,11 @@ By the end of this syllabus, you should be able to write functional Python scrip
 Day 1: what is python ?
 
 Day 2: versions of python
+
+### Example Linux Command
+
+```bash
+# To list files in the current directory
+ls -l
+
 
