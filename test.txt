@@ -1,0 +1,3 @@
+```bash
+# To list files in the current directory
+ls -l
